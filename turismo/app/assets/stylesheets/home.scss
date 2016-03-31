@@ -1,3 +1,50 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+body{
+	background: url("images/medellinHome.jpg");
+}
+
+/*.................................Start Mobile.................................................*/
+ header{
+ 	background: #000;
+ 	width: 100%;
+ 	height: 150px;
+ 	color:#fff;
+ }
+
+ .slogan{
+ 	background: green;
+ 	margin-top: 10px;
+ 	height: 30px;
+ 	p{
+ 		color:#fff;
+ 		text-align: center;
+ 	}
+ }
+ /*.................................End Mobile...................................................*/
+
+ /*.................................Start Tablet.................................................*/
+ @media screen and (min-width: 768px){
+ 	header{
+ 		background: red;
+ 	}
+ }
+ /*.................................End Tablet...................................................*/
+
+ /*.................................Start Desktop................................................*/
+ @media screen and (min-width: 992px){
+ 	 	header{
+ 		background: green;
+ 	}
+ }
+ /*..................................End Desktop..................................................*/
