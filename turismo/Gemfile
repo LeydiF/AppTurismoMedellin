@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #anadir bootstrap
 gem "twitter-bootstrap-rails"
 
+# gem para subir un avatar
+gem 'carrierwave'
+
 # Authentification with devise
 gem 'devise', '~> 3.2'
 

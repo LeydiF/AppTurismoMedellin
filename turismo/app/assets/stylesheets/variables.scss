@@ -1,0 +1,42 @@
+/*Funciones*/
+
+@mixin headerD(){
+
+	background: rgba(11,94,97, .60);
+ 	width: 100%;
+ 	height: 150px;
+ 	color:#fff;
+}
+
+@mixin headerM(){
+
+	background: #0B615E;
+ 	width: 100%;
+ 	height: 100px;
+ 	color:#fff;
+}
+
+@mixin general(){
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+@mixin fondo(){
+	background-size: cover;
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	left:0; 
+	right:0;
+}
+
+@mixin logo(){
+	width: 125px;
+ 	height: 140px;
+ 	background: url('logo.png');
+ 	background-size: cover;
+}
+

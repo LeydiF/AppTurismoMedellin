@@ -1,11 +1,12 @@
 class SitesController < ApplicationController
   before_action :set_site, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, only: [:create, :update, :destroy, :new]
+  #before_action :authenticate_user!, only: [:create, :update, :destroy, :new]
 
   # GET /sites
   # GET /sites.json
   def index
-    @sites = Site.all
+    category_id =  params[:category_id]
+    @sites = Site.where(category_id: category_id)
   end
 
   # GET /sites/1
