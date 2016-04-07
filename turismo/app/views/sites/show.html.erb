@@ -7,39 +7,36 @@
 
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @site.name %>
-</p>
+<div class="slogan">
+  <p><%= @site.name %></p>
+</div>
 
-
-<p>
-  <strong>Image:</strong>
+<p class="image_content">
 <%= image_tag @site.image.url %>
 </p>
 
+<div class="information">
 <p>
-  <strong>Description:</strong>
   <%= @site.description %>
 </p>
 
 <p>
-  <strong>Location:</strong>
   <%= @site.location %>
 </p>
 
 <p>
-  <strong>Contact:</strong>
   <%= @site.contact %>
 </p>
+</div>
 
-<p>
+
+<!-- <p>
   <strong>Category:</strong>
   <%= @site.category_id %>
-</p>
+</p> -->
 
 <%= link_to 'Edit', edit_site_path(@site) %> |
-<%= link_to 'Back', sites_path %>
+<%= link_to 'Back', categories_path %>
 </div>
 
 <footer></footer>

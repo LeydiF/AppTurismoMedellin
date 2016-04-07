@@ -16,9 +16,6 @@
 
 
 /*.................................Start Mobile.................................................*/
- body{
- 	font-size: 1rem;
- }
 
  header{
   @include headerM
@@ -35,9 +32,11 @@
 	h1{
 		color:#fff;
 		padding: 6px;
+		font-size: 46px;
 	}
 	span{
 		color:#fff;
+		font-size: 22px;
 	}
 	div{
 		margin: 0 auto;
@@ -53,6 +52,7 @@
 		a{
 			color:#fff;
 			text-decoration: none;
+			font-size: 26px;
 		}
 	}
 }
@@ -64,6 +64,7 @@
  	p{
  		color:#fff;
  		text-align: center;
+ 		font-size: 22px;
  	}
  }
 
@@ -76,9 +77,6 @@
  /*.................................Start Tablet.................................................*/
  @media screen and (min-width: 768px){
 
- 	body{
- 		font-size: 1.2rem;
- 	}
 
  	header{
  		background: red;
@@ -90,9 +88,6 @@
  /*.................................Start Desktop................................................*/
  @media screen and (min-width: 992px){
 
- 		body{
- 			font-size: 1.5rem;
- 		}
 
  	 	header{
  		@include headerD

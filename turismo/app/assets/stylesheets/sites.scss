@@ -2,6 +2,78 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+@import "variables";
+
 .bodyTwo{
 	padding-bottom: 60px;
 }
+
+/*.................................Start Mobile.................................................*/
+
+	.slogan{
+ 		p{
+ 		font-size: 10px;
+ 	}
+ }
+
+ .imagenSitio {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	img{
+		width: 100%;
+		margin-top: 15px;
+	}
+ }
+ .image_content{
+ 	img{
+ 		width: 100%;
+ 		margin-top: 15px;
+ 		margin-left: 0 auto;
+ 	}
+
+ }
+ 	 .row{
+	padding-left: 15px;
+	padding-right: 15px;
+ }
+
+
+ .information{
+ 	p{
+ 		padding: 15px;
+ 	}
+
+ }
+ 
+
+ /*.................................End Mobile...................................................*/
+
+ /*.................................Start Tablet.................................................*/
+ @media screen and (min-width: 768px){
+
+ 	
+
+ }
+ /*.................................End Tablet...................................................*/
+
+ /*.................................Start Desktop................................................*/
+ @media screen and (min-width: 992px){
+
+.imagenSitio{
+	width: 100%;
+	float: left;
+}
+	 .row{
+	padding-left: 30px;
+ }
+ .image_content{
+ 	img{
+ 		padding: 20px 150px 0px 150px;
+ 	}
+
+ }
+
+ 		
+ }
+ /*..................................End Desktop..................................................*/
