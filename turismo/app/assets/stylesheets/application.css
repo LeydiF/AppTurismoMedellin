@@ -15,6 +15,7 @@
  *= require comments
  *= require sites
  *= require home
+ *= require login
  *= require_self
  *= require bootstrap_and_overrides
  */

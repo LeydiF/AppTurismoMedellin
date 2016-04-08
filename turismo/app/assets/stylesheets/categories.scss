@@ -21,6 +21,10 @@
  	text-align: center;
  }
 
+ .slider{
+ 	display: none;
+ }
+
  nav{
 	ul{
 		margin-bottom: 0px;
@@ -69,7 +73,7 @@ footer{
  @media screen and (min-width: 992px){
 
 .body{
-	background: url('medellinHome.jpg')center no-repeat;
+	background: image-url('fondo.jpg')center no-repeat;
 	@include fondo
 }
 
@@ -98,12 +102,69 @@ nav{
 }
 
 .slider{
+	position:relative;
 	background: #fff;
 	width: 1200px;
 	height: 420px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
+	display: block;
 }
+
+/*slider*/
+
+/*#slide{
+	position:relative;
+	width:1200px;
+	height:420px;
+	margin:0 auto;
+	background:#000;
+	}*/
+
+/*.image1{
+	background: url('explora_slider.jpg') no-repeat;
+}*/
+
+#images{
+	position:absolute;
+	width:1200px;
+	height:420px;
+	background:#000;
+	}
+li.image{
+	position:absolute;
+	width:1200px;
+	height:420px;
+	background:#039;
+	-webkit-transition:opacity 1s ease;
+	-moz-transition:opacity 1s ease;
+	-ms-transition:opacity 1s ease;
+	-o-transition:opacity 1s ease;
+	}
+#botones{
+	width:150px;
+	height:25px;
+	position:absolute;
+	left:525px;
+	top:360px;
+	}
+#botones li{
+	float:left;
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	background-color:#000;
+	cursor:pointer;
+	margin-right:5px;
+	color:#FFF;
+	opacity:0.6;
+	border-radius:100%;
+	}
+#botones li:first-child{
+	opacity:1;
+	}
 
  		
  }
