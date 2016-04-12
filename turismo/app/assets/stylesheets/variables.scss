@@ -54,4 +54,23 @@
 	background: #0B615E;
 }
 
+@mixin centrar(){
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 20px;
+	margin: auto;
+	width: 310px;
+}
+
+@mixin boton(){
+	width: 80px;
+	margin-top: 10px;
+	height: 40px;
+	color: rgb(255, 255, 255);
+	background: rgb(11, 97, 94) none repeat scroll 0% 0%;
+	border-bottom: 2px solid #000;
+}
+
 
