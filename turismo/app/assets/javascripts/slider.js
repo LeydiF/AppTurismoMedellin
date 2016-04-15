@@ -1,4 +1,4 @@
-window.onload = function(){
+$(document).on('ready page:load', function(event){
 //declaramos las primeras variables
 var slide = document.querySelector("#images");
 var botones = document.querySelector("#botones");
@@ -156,5 +156,5 @@ esperar = false;
 }
 }
 nextImage();
-}//cerramos onload.window
+});//cerramos 
 

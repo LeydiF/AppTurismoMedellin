@@ -12,7 +12,8 @@ Rails.application.routes.draw do
    root 'home#index'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  get 'index_per_price' => 'sites#index_per_price', as: :index_per_price
+  #get 'index_per_price', to: 'sites#index_per_price', as: :index_per_price
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

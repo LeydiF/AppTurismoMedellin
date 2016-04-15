@@ -17,10 +17,18 @@
 </div>
 <div class="content_home">
 	<h1>Bienvenido a Medellín</h1>
-	<span>Conoce la ciudad de la eterna primavera</span><br>
-	<div><a href="http://localhost:3000/categories"> Entrar </a></div> 
+	<span>Dime cuanto tienes y te diré a donde ir</span><br>
+
+	<%= form_tag({controller: :sites, action: :index_per_price}, method: :get) do %>
+    	<%= text_field_tag :price %>
+    	<%= submit_tag %>
+    <% end %>
+
+	<div><a href="http://localhost:3000/categories"> Ver guía </a></div> 
 </div>
+<footer>
+	
+</footer>
 </div> 
 	
-
 
