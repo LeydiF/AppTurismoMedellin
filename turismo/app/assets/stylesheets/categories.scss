@@ -68,10 +68,10 @@ footer{
  /*.................................Start Desktop................................................*/
  @media screen and (min-width: 992px){
 
-.body{
-	background: image-url('fondo.jpg')center no-repeat;
-	@include fondo
-}
+// .body{
+// 	background: image-url('fondo.jpg')center no-repeat;
+// 	@include fondo
+// }
 
 nav{
 	margin-top: 15px;
