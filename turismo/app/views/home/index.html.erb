@@ -1,16 +1,16 @@
 <div class="fondo">
 	<header>
-
-		<div class="logo">
-
-		</div>
-
+	
 		<% if user_signed_in? %>
 			<%= current_user.email %>
 			<%= link_to "Logout", destroy_session_path(current_user), method: 
 			:delete %><br />
 		<% end %>
  
+
+		<div class="logo">
+		</div>
+
  	<div class="btn_login">
 
  		<a href="http://localhost:3000/users/sign_in"><button class="btn_usuario">Usuario</button></a>

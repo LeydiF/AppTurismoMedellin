@@ -1,18 +1,16 @@
 /*Funciones*/
 
 @mixin headerD(){
-
-	background: #fff;
+	background: rgba(214,186,150,.80);
  	width: 100%;
  	height: 150px;
  	color:#fff;
 }
 
 @mixin headerM(){
-
-	background: #fff;
+	background: rgb(214,186,150);
  	width: 100%;
- 	height: 100px;
+ 	height: 150px;
  	color:#fff;
 }
 
@@ -34,12 +32,12 @@
 	right:0;
 }
 
-@mixin logo(){
-	margin-left: auto;
+@mixin logoD(){
  	margin-right: auto;
-	width: 210px;
- 	height: 85px;
- 	background: url('Presentacion.jpg');
+	width: 250px;
+ 	height: 150px;
+ 	float: left;
+ 	background: url('logo2.png');
  	background-size: cover;
 }
 
@@ -49,7 +47,7 @@
 	bottom: 0px;
 	height: 60px;
 	width: 100%;
-	background: #02302F;
+	background: rgb(178,83,0);
 }
 
 @mixin centrar(){
@@ -67,7 +65,7 @@
 	margin-top: 10px;
 	height: 40px;
 	color: rgb(255, 255, 255);
-	background: rgb(11, 97, 94) none repeat scroll 0% 0%;
+	background: rgb(255,118,0) none repeat scroll 0% 0%;
 	border-bottom: 2px solid #000;
 }
 
